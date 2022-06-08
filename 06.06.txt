@@ -1,0 +1,349 @@
+cdip addr - saber o ip da maquina
+
+
+como se conectar no cmd
+
+pegar o id da maquina ip addr
+ssh user@ip / inserir senha
+
+
+sudo apt update
+
+
+apt - ferramenta de gerenciamento de pacote
+pwd - Localizacao do diretorio presente
+
+ls- listar conteudo
+ls -a : listar todo conteudo
+ls -al : detalhamento de todo conteudo (ll  -atalho )
+
+ls --help
+
+--help: para ajuda
+
+man ls
+mostra oque o comando faz
+
+
+
+control + l = limpa a telas
+
+cd - cai na home area do usuario
+cd
+
+para sair do modo su utilizamos o exit
+
+cd - vai para o diretorio anterior, ou seja o endereco que voce estava antes
+
+o tab é o autocompletar
+
+ls l
+
+o ponto (.) é o diretório corrente
+e os dois pontos indica o diretorio que voce está (..)
+
+o ponto ponto indica para voltar um repositorio
+
+atalho para voltar no home cd tiozinho
+
+
+
+Criando diretorio MKDIR
+
+criacao de varios diretorios mkdir -p nomes do diretorios/com barra para separacao
+
+rmdir - remove diretorio
+
+
+rm serve tambem para pagar diretorio
+
+rm -r tudo que tiver no primeiro referencial para frente sera deletado
+
+touch serve para criar arquivos dentro de outro
+
+A barra invertida(\) é usada para criar espaco nas nomeacoes dos diretorios e arquivos
+
+
+
+
+
+copiando arquivos com cp
+
+
+cp -r * ../dir2 (copiar recursivamente tudo aonde eu to para o diretorio indicado)
+
+
+
+
+movendo diretorios
+
+mv dir1 dir4
+mv = mover 
+mover diretorio um para diretorio 4 (o quatro sera criado no momento do comando)
+
+
+
+
+
+
+
+
+historico de comandos gerais
+
+
+    1  sudo apt update
+    2  pwd
+    3  ls
+    4  ls -a
+    5  touch teste.arq
+    6  ls
+    7  ls -a
+    8  ls -al
+    9  ll
+   10  clear
+   11  ls --help
+   12  man ls
+   13  cd
+   14  cd /etc
+   15  pwd
+   16  cd
+   17  ls
+   18  cd
+   19  /
+   20  cd /
+   21  cd
+   22  cd /var
+   23  pwd
+   24  ls
+   25  cd /var/lock
+   26  ls
+   27  cd/var/lock/lvm
+   28  cd
+   29  apt list --upgradable
+   30  clear
+   31  cd
+   32  pwd
+   33  /home/vitoria/bin
+   34  /bin
+   35  cd bin
+   36  ls
+   37  pwd
+   38  /bin/
+   39  /home/vitoria/bin
+   40  cd
+   41  pwd
+   42  cd /bin/
+   43  cd
+   44  pwd
+   45  cd /bin/
+   46  ls
+   47  cd
+   48  pwd
+   49  /boot/
+   50  home/vitoria/boot/
+   51  cd /boot/
+   52  ls
+   53  cd grub
+   54  cd initrd.img.old
+   55  ls
+   56  fonts
+   57  cd
+   58  pwd
+   59  cd /dev/
+   60  ls
+   61  ls -a
+   62  cd
+   63  ls
+   64  cd
+   65  /etc/
+   66  cd /etc/
+   67  ls
+   68  adduser.conf
+   69  cd /etc/adduser.conf
+   70  ls
+   71  cde
+   72  cd
+   73  /lib/
+   74  cd /lib/
+   75  ls
+   76  pwd
+   77  cd /media/
+   78  ls
+   79  ls -a
+   80  cd
+   81  /media/
+   82  cd /media/
+   83  cd
+   84  /mnt/
+   85  cd /mnt/
+   86  /opt/
+   87  cd /opt/
+   88  ls
+   89  ls -a
+   90  cd
+   91  cd sbin/
+   92  cd /sbin/
+   93  ls
+   94  clear
+   95  cd
+   96  /tmp/
+   97  cd /tmp/
+   98  ls
+   99  cd
+  100  /usr/
+  101  cd /usr/
+  102  ls
+  103  cd
+  104  cd /var/
+  105  ls
+  106  cd
+  107  cd /root/
+  108  sudo su
+  109  cler
+  110  clear
+  111  cd
+  112  pwd
+  113  /proc/
+  114  cd /proc/
+  115  ls
+  116  /labs/
+  117  cd
+  118  pwd
+  119  cd /labs/
+  120  cd labs/
+  121  ls
+  122  cd labs/arqs_dirs
+  123  cd labs/arqs_dirs/
+  124  cd arqs_dirs/
+  125  ls
+  126  cd dir1/dir2/dir3/dir4/dir5
+  127  cd
+  128  labs/
+  129  cd labs/
+  130  pwd
+  131  ls
+  132  cd arqs_dirs
+  133  clear
+  134  cd dir1/dir2/dir3/dir4/dir5/
+  135  ls
+  136  cd ..
+  137  ls
+  138  rmdir dir5/
+  139  cd dir5/
+  140  ls
+  141  rk arq1
+  142  rm arq1
+  143  ls
+  144  rm arq2 arq3
+  145  ls
+  146  cd^~
+  147  cd ~/labs/arqs_dirs/
+  148  ls
+  149  rm -r dir1
+  150  ls
+  151  mkdir -p dir1/dir2/dir3
+  152  cd dir1/dir2/dir3/
+  153  touch arq1 arq2 arq3
+  154* cd
+  155  cd ~/labs/arqs_dirs/
+  156  rm -- help
+  157  rm --help
+  158  rm -rf dir1/
+  159  ls
+  160  mkdir -p Dir1/dir2
+  161  ls
+  162  mkdir ls
+  163  ls
+  164  rm -r ls
+  165  ls
+  166  clear
+  167  mkdir diretorio 1 diretorio 2
+  168  ls
+  169  mkdir diretorio\ 1
+  170  ls
+  171  mkdir diretorio\ 2 diretorio\ 3
+  172  ls
+  173  cd ..
+  174  ls
+  175  rm -r arqs_dirs/
+  176  ls
+  177  mkdir arqs_dir
+  178  mkdir arqs_dirs
+  179  rm -r arqs_dir/
+  180  ls
+  181  clear
+  182  mkdir copy_move
+  183  cd copy_move/
+  184  pwd
+  185  clear
+  186  mkdir dir1 dir2
+  187  ls
+  188  cd dir1
+  189  ls
+  190  touch arq1 arq2 arq3
+  191  ls
+  192  mkdir -p sub1/sub2
+  193  ls
+  194  cd ..
+  195  ls
+  196  cp dir1 dir2
+  197  cp -r dir1 dir2
+  198  ls
+  199  cd dir2
+  200  ls
+  201  clear
+  202  rm -r dir1
+  203  ls
+  204  cd
+  205  cd -
+  206  cd ..
+  207  ls
+  208  cd dir1
+  209  cp -r * ../dir2
+  210  ls
+  211  cd ../dir2
+  212  ls
+  213  rm -rf *
+  214  ls
+  215  cd ..
+  216  ls
+  217  cp -r dir1/* dir2
+  218  ls
+  219  cd dir2
+  220  ls
+  221  ls ../dir1
+  222  cd ..
+  223  ls
+  224  cp -r dir1 dir3
+  225  ls
+  226  cd dir3
+  227  ls
+  228  cd ..
+  229  pwd
+  230  clear
+  231  pwd
+  232  ls
+  233  mv dir1 dir4
+  234  ls
+  235  cd dir4
+  236  ls
+  237  mv dir4 dir1
+  238  cd ..
+  239  mv dir4 dir1
+  240  ls
+  241  mkdir dir4
+  242  ls
+  243  mv dir
+  244  mv dir1*dir4
+  245  mv --help
+  246  clear
+  247  mv dir1/* dir4
+  248  ls
+  249  ls dir1/
+  250  ls dir4
+  251  cd dir4
+  252  ls
+  253  mv arq1 arq11
+  254  ls
+  255  cd ~
+  256  history

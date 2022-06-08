@@ -1,0 +1,3 @@
+terca - *
+quarta  - quinta localizando arquivos e conteudos
+sexta - conhecendo e utilizando o terminal 4hrs
